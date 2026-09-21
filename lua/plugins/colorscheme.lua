@@ -64,11 +64,11 @@ return {
   -- choice, uncomment this block and set the name string of the theme you want.
   --
   {
-    "Mofiqul/vscode.nvim",
+    "EdenEast/nightfox.nvim",
     priority = 1000,
     config = function()
       vim.o.background = "dark"
-      vim.cmd.colorscheme("vscode")
+      vim.cmd.colorscheme("duskfox")
     end,
   },
 }
