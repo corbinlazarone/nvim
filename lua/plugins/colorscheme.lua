@@ -14,9 +14,7 @@ return {
 
   -- Rosé Pine — soft, muted, elegant
   -- names: "rose-pine", "rose-pine-moon", "rose-pine-dawn"
-  { "rose-pine/neovim", name = "rose-pine" },
-
-  -- Nightfox — a whole family of themes in one plugin
+  { "rose-pine/neovim", name = "rose-pine" }, -- Nightfox — a whole family of themes in one plugin
   -- names: "nightfox", "duskfox", "nordfox", "terafox", "carbonfox", "dawnfox", "dayfox"
   { "EdenEast/nightfox.nvim" },
 
@@ -63,12 +61,4 @@ return {
   -- Picking via <leader>uC only lasts for the current session. To persist a
   -- choice, uncomment this block and set the name string of the theme you want.
   --
-  {
-    "Mofiqul/vscode.nvim",
-    priority = 1000,
-    config = function()
-      vim.o.background = "dark"
-      vim.cmd.colorscheme("vscode")
-    end,
-  },
 }
