@@ -14,9 +14,7 @@ return {
 
   -- Rosé Pine — soft, muted, elegant
   -- names: "rose-pine", "rose-pine-moon", "rose-pine-dawn"
-  { "rose-pine/neovim", name = "rose-pine" },
-
-  -- Nightfox — a whole family of themes in one plugin
+  { "rose-pine/neovim", name = "rose-pine" }, -- Nightfox — a whole family of themes in one plugin
   -- names: "nightfox", "duskfox", "nordfox", "terafox", "carbonfox", "dawnfox", "dayfox"
   { "EdenEast/nightfox.nvim" },
 
